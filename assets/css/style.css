@@ -139,7 +139,7 @@ body {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
-    margin-top: 3%;
+    margin-top: 6%;
   }
   
   
@@ -241,4 +241,8 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+  }
+
+  #contact{
+    margin-top: 14%;
   }
