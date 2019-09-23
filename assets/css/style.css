@@ -38,8 +38,14 @@ body {
     margin-bottom: 20px;
   }
   
-  p:last-child {
-    margin-bottom: 0;
+  p{
+    margin-top: 24px;
+    margin-left: -31px;
+  }
+
+  .paragraph{
+    margin-left: 22%;
+    margin-top: -60px;
   }
   
   h1,
@@ -150,6 +156,10 @@ body {
     padding: 56px;
     min-height: calc(100vh - 70px);
   }
+
+  .img-thumbnail{
+    margin-left: 21px;
+  }
   
   
   /* portfolio page */
@@ -179,7 +189,7 @@ body {
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 20px 284px 25px;
     overflow: auto;
   }
   
