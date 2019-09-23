@@ -88,7 +88,7 @@ body {
     
     flex-direction: column;
     min-width: 0;
-   
+   max-width: 960px;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
@@ -151,18 +151,30 @@ body {
     min-height: calc(100vh - 70px);
   }
   
-  .main-section {
-    float: left;
-    width: 100%;
-    max-width: 960px;
-    padding: 30px;
-    margin: 0 0 40px;
-    background: #ffffff;
-    border: 1px solid #dddddd;
-  }
   
   /* portfolio page */
   
+  .main-section {
+    float: left;
+    width: 100%;
+   padding-left: 0px;
+    padding: 30px;
+    margin: 0 0 40px;
+    position: relative;
+    
+    display: flex;
+    
+    flex-direction: column;
+    min-width: 0;
+   max-width: 960px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 16%;
+  
+  }
   .work {
     position: relative;
     float: left;
@@ -194,15 +206,7 @@ body {
     background: #4aaaa5;
     border-bottom: 0;
   }
-  
-  .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  }
-  
+ 
   /* contact page */
   
   #contact-form ul {
