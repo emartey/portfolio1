@@ -219,8 +219,15 @@ body {
  
   /* contact page */
   
+  #contact-form{
+
+margin: 16px;
+    
+  }
   #contact-form ul {
     margin-bottom: 20px;
+    padding: 56px;
+    margin-top: -68px;
   }
   
   #contact-form li {
