@@ -13,6 +13,9 @@ body {
   
   /* general */
   
+  a{
+    color:white;
+  }
   .nav {
     
     display: flex;
