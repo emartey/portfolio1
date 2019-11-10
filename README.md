@@ -1,3 +1,3 @@
-# Bootstrap-Portfolio
-Assignment 1
-https://emartey.github.io/Bootstrap-Portfolio/
+Portfolio
+
+https://emartey.github.io/Portfolio/
