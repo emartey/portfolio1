@@ -16,6 +16,7 @@ body {
   a{
     color:white;
   }
+  
   .nav {
     
     display: flex;
@@ -42,13 +43,13 @@ body {
   }
   
   p{
-    margin-top: 24px;
+    margin-top: 66px;
     margin-left: -31px;
   }
 
   .paragraph{
-    margin-left: 22%;
-    margin-top: -60px;
+    margin-left: 24%;
+    margin-top: -315px;
   }
   
   h1,
@@ -79,14 +80,14 @@ body {
     
     flex-wrap: wrap;
     margin-right: -587px;
-    margin-left: -15px;
+    margin-left: -1px;
     max-width: 960px;
   }
 .container {
     width: 100%;
     /* padding-right: 15px; */
-    padding-left: 15px;
-    margin-right: 15px;
+    /* padding-left: 15px; */
+    /* margin-right: -5px; */
     margin-left: auto;
   }
 
@@ -103,7 +104,7 @@ body {
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
-    margin-top: 16%;
+    margin-top: 13.5%;
 }
   
   /* header */
@@ -132,7 +133,7 @@ body {
     text-decoration: none;
     background: lightpink;
     border: none;
-    margin-left: 14%;
+    margin-left: 8%;
 }
 
   
@@ -161,11 +162,12 @@ body {
   
   #about {
     padding: 56px;
-    min-height: calc(100vh - 70px);
+    min-height: calc(55vh - 70px);
+    max-width: 960px;
   }
 
   .img-thumbnail{
-    margin-left: 21px;
+    margin-left: 27px;
   }
   
   
@@ -189,7 +191,7 @@ body {
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
-    margin-top: 16%;
+    margin-top: 11.7%;
   
   }
   .work {
@@ -225,7 +227,9 @@ body {
   }
  
   /* contact page */
-  
+  #xon{
+    margin-top: -5.4%;
+  }
   #contact-form{
 
 margin: 16px;
@@ -274,3 +278,217 @@ margin: 16px;
   #contact{
     margin-top: 14%;
   }
+
+  /* ALL media queries */
+ 
+  /* I found it a little easier to work from the smaller screen size up*/
+
+
+  /* Media Queries 640px */
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #332f2f;
+  }
+
+  .row {
+      margin: 0%;
+  }
+      
+  .card {
+    width: 100%;
+    padding: 20px;
+  }
+    
+  
+  .container {
+    width: 100%;
+    margin-top: 150px;
+  }
+  
+  h1 {
+    width: 100%;
+  }
+  
+  .auth-image {
+    width: 100%;
+  }
+    
+  .nav {
+    float: none;
+    text-align: center;
+    padding-right: 26px;
+    margin-left: 18%;
+  }
+  
+  #name {
+    float: none;
+    width: auto;
+    display: block;
+    margin: 0;
+  }
+
+  .work {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  #top {
+    position: absolute;
+    margin-left: 0;
+  }
+.aboutLink{
+      border-left: none;
+}
+
+#xon{
+  margin-top: 38.6%;
+}
+
+p {
+    margin-top: 6px;
+    margin-left: -37px;
+}
+
+.paragraph {
+    margin-left: -4%;
+    margin-top: -42px;
+}
+
+#suit{
+      margin-left: 21%;
+}
+
+}
+
+
+
+
+
+/* Media Queries 768px */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  body {
+    background-color: #332f2f;
+  }
+
+  #name {
+    margin-left: 15px;
+  }
+
+  nav {
+    padding-right: 15px;
+  }
+
+  .container {
+    width: 95%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .auth-image {
+    width: 60%;
+  }
+
+  .work {
+    width: 33%;
+    margin-left: 31%;
+  }
+
+  .row {
+    margin: 3% -28% 0% 1%;
+    width: 100%;
+  }
+
+  .nav{
+    margin-left: 16%;
+  }
+
+  p{
+    margin-top: 0px;
+  }
+  #suit{
+    margin-left: 27%;
+  }
+
+  .paragraph{
+    margin-left: -4%;
+    margin-top: -42px;
+  }
+
+  .main-section {
+        margin-top: 16.7%;
+  }
+
+  #xon {
+    margin-top: 16.6%;
+}
+
+}
+
+/* Media Queries 980px */
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  body {
+    background-color: #332f2f;
+  }
+
+  #name {
+    margin-left: 40px;
+  }
+
+  .nav {
+        margin-left: 13%;
+  }
+
+  .row{
+    margin-top: 65%;
+    width: 303%;
+  }
+
+  .container {
+   width: 34%;
+    margin-left: 22px;
+    margin-top: -18%;
+  }
+
+
+  #contact{
+        margin-left: 90px;
+    margin-top: 21%;
+  }
+
+  .work {
+    width: 52%;
+        margin: 20px 105px 25px;
+  }
+
+  .work h3 {
+    padding: 3px;
+  }
+
+  .card{
+        width: 214%
+  }
+
+  .main-section {
+    margin: 276px 141px 40px;
+    width: 202%;
+}
+
+#suit{
+  width: 180px;
+}
+
+.paragraph {
+  margin: -40% -1% -10% 31%;
+}
+
+p {
+  margin-top: 85px;
+}
+
+#xon {
+  margin-top: -21.4%;
+  width: 252%;
+  
+}
+
+}
